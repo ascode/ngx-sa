@@ -12,17 +12,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: '题库管理',
-    icon: 'nb-keypad',
-    link: '/pages/ui-features',
-    children: [
-      {
-        title: 'Buttons',
-        link: '/pages/ui-features/buttons',
-      },
-    ],
-  },
-  {
     title: 'UI Features',
     icon: 'nb-keypad',
     link: '/pages/ui-features',
@@ -165,5 +154,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/reset-password',
       },
     ],
+  },
+  {
+    title: 'Templetes',
+    icon: 'nb-locked',
+    link: '/templete/dashboard',
   },
 ];
